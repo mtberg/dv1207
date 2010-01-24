@@ -1,0 +1,835 @@
+body {
+	margin:0 auto;
+	background-color: #fff;
+	overflow: scroll;
+}
+div.clear {
+	line-height: 1px;
+	height: 0px;
+	clear: both;
+}
+body div.wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 1100px;
+	min-width: 800px;
+	background-color: #fff;
+}
+body div.wrapperPost1 {
+	position: relative;
+	margin: 0;
+	margin-right: 2px;
+	background-color: #6699CC;
+}
+body div.wrapperPost2 {
+	position: relative;
+	margin: 0;
+	margin-right: 2px;
+	background-color: #ff6600;
+}
+body div.wrapperPost3 {
+	position: relative;
+	margin: 0;
+	margin-right: 2px;
+	background-color: #99cc00;
+}
+body div.pageHeader {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 0px;
+	padding-bottom: 1px;
+	width: 1098px;
+	height: 100px;
+	border: 1px solid black;
+	position: relative;
+	background-color: #fff;
+}
+	body div.pageHeader h1 {
+		text-align: center;
+	}
+	body div.pageHeader hr {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-bottom: 1px solid black;
+	}
+body div.wrapper div.pageSideBar {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+	float: right;
+/* 	width: 298px;
+	border: 1px solid black; 
+	border-top: 0;
+	border-bottom: 0; */
+	border: 0;
+	border-left: 1px dotted black;
+	background-color: #fff;
+}
+	div.pageSideBar div.listWrapper	{
+		padding: 0;
+		padding-bottom: 10px;
+		position: relative;
+		float: right;
+		text-align: left;
+		width: 290px;
+		min-width: 200px;
+		border: 0;
+		border-bottom: 1px solid #999;
+		clear: both;
+	}
+	div.pageSideBar div.listWrapper p.listTitle	{
+		margin: 0;
+		margin-top: 15px;
+		margin-bottom: 5px;
+		margin-left: 7px;
+		padding: 0;
+/*		font-weight: thin;*/
+		font-family: Arial;
+		font-size: 1.2em;
+		color: #999;
+	}
+	div.pageSideBar div.listField	{
+		margin: 0;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 0;
+		text-align: left;
+		min-width: 200px;
+		border: 0;
+		border-bottom: 1px dotted #999;
+	}
+		div.pageSideBar div.listField div.listHead	{
+			margin: 0;
+			margin-left: 5px;
+			padding: 0;
+			width: 100%;
+			float: left;
+			text-align: left;
+			width: 100%;
+		}
+			div.pageSideBar div.listField div.listHead p.listAuthor	{
+				margin: 0;
+				padding: 0;
+				font-size: 0.8em;
+				color: #80a6bf;
+			}
+		div.pageSideBar div.listField div.listInfo	{
+			margin: 0;
+			margin-left: 10px;
+			padding: 0;
+			padding-right: 10px;
+			text-align: left;
+		}
+			div.pageSideBar div.listField div.listInfo p.listInfoText	{
+				margin: 0;
+				padding: 0;
+				font-size: 0.8em;
+				font-family: 'Lucida Grande', Arial;
+				color: #d36600;
+			}
+			div.pageSideBar div.listField div.listInfo p.listInfoText span	{
+				padding: 0;
+				padding-right: 10px;
+				float: right;
+				font-size: 0.8em;
+				color: #CC9966;
+				clear: both;
+			}
+#listRecentTen {
+	background-color: #eee;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 0;
+	text-align: left;
+}
+	#listRecentTen div	{
+		display: block;
+		width: 100%;
+	}
+	#listRecentTen div p.listLinkRight {
+		position: relative;
+		display: inline;
+		float: right;
+		margin: 0;
+		padding: 0;
+		font-size: 0.7em;
+	}
+	#listRecentTen div p.listLinkLeft {
+		position: relative;
+		display: inline;
+		float: left;
+		margin: 0;
+		padding: 0;
+		font-size: 0.8em;
+	}
+	#listRecentTen div div.listLinkField {
+		display: block;
+		width: 100%;
+		/*	Help from W3SCHOOLS.com	*/
+		/* for IE */
+		 filter:alpha( opacity = 80 );
+		/* CSS3 standard */
+		opacity:0.8;
+		background-color: #fff;
+		border: 0;
+		border-bottom: 1px solid black;
+	}
+		#listRecentTen div div.listLinkField a {
+			color: black;
+			text-decoration: none;
+		}
+		#listRecentTen div div.listLinkField a:hover {
+			color: black;
+			display: inline;
+			text-decoration: none;
+			background-color: #999;
+		}
+	#listRecentTen div.listLink1 {
+		margin: 1px;
+		padding: 0;
+		background-color: #6699CC;
+	}
+	#listRecentTen div.listLink2 {
+		margin: 1px;
+		padding: 0;
+		background-color: #ff6600;
+	}
+	#listRecentTen div.listLink3 {
+		margin: 1px;
+		padding: 0;
+		background-color: #99cc00;
+	}
+#listTaggs {
+	background-color: #eee;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 0;
+	text-align: left;
+}
+	#listTaggs div.fieldTaggs {
+		display: block;
+		width: 100%;
+		background-color: #fff;
+		border: 0;
+		border-bottom: 1px solid black;
+	}
+		#listTaggs div.fieldTaggs p {
+			position: relative;
+			display: inline;
+			margin: 0;
+			padding: 0;
+			font-size: 0.8em;
+		}
+		#listTaggs div.fieldTaggs p.taggNameLeft{
+			float: left;
+			color: #80a6bf;
+		}
+		#listTaggs div.fieldTaggs p.taggNameRight{
+			float: right;
+			color: #d36600;
+		}
+
+#listRSS {
+	background-color: #fff;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 0;
+	text-align: left;
+}
+	#listRSS a {
+		text-decoration: none;
+		color: #000;
+	}
+	#listRSS a:hover {
+		color: #000;
+		text-decoration: none;
+	}
+
+#listValidation {
+	background-color: #fff;
+	position: relative;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 0;
+	text-align: left;
+}
+	#listValidation p.small a {
+		color: #000;
+		text-decoration: none;
+	}
+	#listValidation p.small a:hover {
+		color: #000;
+		text-decoration: none;
+	}
+		#listValidation p.small a img {
+			border: none;
+		}
+
+body div.wrapper div.pageBody {
+	position: relative;
+	margin: 0;
+	float: left;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 700px;
+	border: 0px solid black;
+	border-top: 0;
+	border-bottom: 0;
+	background-color: #fff;
+}
+	body div.wrapper div.showPost {
+		margin: 0;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		padding: 0;
+		/*	Help from W3SCHOOLS.com	*/
+		/* for IE */
+		/* filter:alpha(opacity=80);
+		/* CSS3 standard */
+		opacity:0.8;
+		border: 1px solid;
+		background-color:#fff;
+	}
+		div.showPost div.postHeader	{
+			margin: 0;
+			padding: 2px 3px 3px 2px;
+			position: relative;
+			display: block;
+			width: 690px;
+			min-width: 500px;
+		}
+			div.showPost div.postHeader h2 {
+				margin: 0;
+				padding: 0;
+				font-size: 1.1em;
+				/*	Help from W3SCHOOLS.com	*/
+				/* for IE */
+				/* filter:alpha(opacity=90);
+				/* CSS3 standard */
+				opacity:0.9;
+			}
+			div.showPost p.postTagg {
+				margin: 0;
+				padding: 0;
+				display: block;
+				padding-left: 3px;
+				font-size: 0.8em;
+				text-align: left;
+				border: 0;
+				border-top: 1px solid black;
+				border-bottom: 1px solid black;
+			}
+				div.showPost div.postHeader div.postSubHeader {
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					/*	Help from W3SCHOOLS.com	*/
+					/* for IE */
+					/* filter:alpha(opacity=90);
+					/* CSS3 standard */
+					opacity:0.9;
+					text-align: left;
+					display: block;
+					clear: both;
+				}
+				div.showPost div.postHeader div.postSubHeader p.postAuthor {
+					position: relative;
+					margin: 0;
+					padding: 0;
+					display: inline;
+					float: left;
+					text-align: left;
+					font-size: 0.9em;
+				}
+				div.showPost div.postHeader div.postSubHeader p.postDate {
+					position: relative;
+					padding: 0;
+					margin: 0;
+					display: inline;
+					text-align: right;
+					float: right;
+					font-size: 0.8em;
+				}
+			div.showPost div.postContent	{
+				margin: 0;
+				padding: 3px 4px 4px 3px;
+				position: relative;
+				display: block;
+				width: 690px;
+				min-width: 500px;
+				border: 0;
+				border-bottom: 1px solid black;
+			}
+			div.showPost div.postFooter	{
+				margin: 0;
+				padding: 0;
+				position: relative;
+				display: block;
+				width: 690px;
+				min-width: 500px;
+			}
+				div.showPost div.postFooter p.postFooterComment	{
+					position: relative;
+					float: right;
+					display: inline;
+					margin: 0;
+					padding: 1px;
+				}
+					div.showPost div.postFooter p.postFooterComment span	{
+						text-align: right;
+						font-size: 0.8em;
+					}
+					div.showPost div.postFooter p.postFooterComment a	{
+						color: black;
+						text-decoration: none;
+					}
+					div.showPost div.postFooter p.postFooterComment a:hover	{
+						color: black;
+						display: inline;
+						text-decoration: none;
+						background-color: #e3e;
+					}
+				div.showPost div.postFooter p.postFooterNewComment	{
+					position: relative;
+					float: left;
+					display: inline;
+					margin: 0;
+					padding: 1px;
+				}
+					div.showPost div.postFooter p.postFooterNewComment span	{
+						text-align: left;
+						font-size: 0.8em;
+					}
+					div.showPost div.postFooter p.postFooterNewComment a	{
+						color: black;
+						text-decoration: none;
+					}
+					div.showPost div.postFooter p.postFooterNewComment a:hover	{
+						color: black;
+						display: inline;
+						text-decoration: none;
+						background-color: #e3e;
+					}
+body div.wrapper div.wrapperComment {
+	position: relative;
+	margin: 0;
+	margin-left: 100px;
+	margin-right: 2px;
+	background-color: #FFF;
+}
+	div.wrapperComment div.showComment {
+		margin: 0;
+		margin-bottom: 5px;
+		padding: 0;
+		/*	Help from W3SCHOOLS.com	*/
+		/* for IE */
+		/* filter:alpha(opacity=90);
+		/* CSS3 standard */
+		opacity:0.9;
+		border: 1px solid #000;
+	}
+		div.showComment div.comHeader	{
+			margin: 0;
+			padding: 6px 3px 3px 2px;
+			position: relative;
+			display: block;
+			width: 590px;
+			min-width: 400px;
+			border: 0;
+			border-bottom: 1px solid black;
+		}
+			div.showComment div.comHeader h2 {
+				margin: 0;
+				padding: 0;
+				font-size: 1.1em;
+				font-family: Arial;
+				color: #000;
+				/*	Help from W3SCHOOLS.com	*/
+				/* for IE */
+				/* filter:alpha(opacity=90);
+				/* CSS3 standard */
+				opacity:0.9;
+			}
+			div.showComment div.comHeader p {
+				position: relative;
+				margin: 0;
+				padding: 0;
+				display: inline;
+				float: right;
+				text-align: right;
+				font-family: Arial;
+				font-size: 0.9em;
+				color: #336699;
+			}
+				div.showComment div.comHeader p a {
+					text-decoration: none;
+				}
+		div.showComment div.comContent	{
+			margin: 0;
+			padding: 3px 4px 4px 3px;
+			position: relative;
+			display: block;
+			width: 590px;
+			min-width: 400px;
+			border: 0;
+			border-bottom: 1px solid black;
+		}
+		div.showComment div.comFooter	{
+			margin: 0;
+			padding: 0;
+			position: relative;
+			display: block;
+			width: 590px;
+			min-width: 400px;
+		}
+			div.showComment div.comFooter p.comAuthor {
+				position: relative;
+				margin: 0;
+				padding: 0;
+				display: inline;
+				float: left;
+				text-align: left;
+				font-family: Arial;
+				font-size: 0.9em;
+				color: #336699;
+			}
+			div.showComment div.comFooter p.comDate {
+				position: relative;
+				padding: 0;
+				margin: 0;
+				display: inline;
+				text-align: right;
+				float: right;
+				font-family: Arial;
+				font-size: 0.8em;
+				color: #996633;
+			}
+				div.showComment div.comFooter p.comDate a	{
+					color: black;
+					text-decoration: none;
+				}
+				div.showComment div.comFooter p.comDate a:hover	{
+					color: black;
+					display: inline;
+					text-decoration: none;
+					background-color: #e3e;
+				}
+div.divForm	{
+	margin: 0 auto;
+	padding: 0;
+}
+	div.divForm p.fieldPost {
+		position: relative;
+		float: left;
+		width: 70%;
+		display: inline;
+	}
+	div.divForm p.fieldTaggs {
+		position: relative;
+		float: right;
+		width: 30%;
+		display: inline;
+	}
+		div.divForm	p small {
+			display: block;
+			font-size: 0.9em;
+		}
+
+div.userProfile {
+	margin: 0;
+	padding: 3px;
+	position: relative;
+	float: left;
+	border: 1px solid black;
+}
+	div.userProfile p {
+		margin: 0;
+		margin-right: 5px;
+		padding: 0;
+		font-size: 0.9em;
+		font-family: Arial;
+	}
+		div.userProfile p b {
+			font-weight: 500;
+			color: #996633;
+			float: left;
+		}
+		div.userProfile p span {
+			margin: 0;
+			padding: 0;
+			color: black;
+			float: right;
+		}
+fieldset.grade {
+	margin: 0.1em;
+	position: relative;
+	display: block;
+}
+	fieldset.grade img {
+		float: left;
+		clear: left;
+		width: 100px;
+	}
+	fieldset.grade textarea {
+		float: left;
+	}
+	fieldset.grade hr.clear {
+		clear: both;
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+		fieldset.grade ul {
+			clear: left;
+			background-color: #eee;
+			position: relative;
+			margin: 0 auto;
+			padding: 0;
+			width: 70%;
+			border: 0;
+			border-bottom: 0;
+			text-align: center;
+		}
+			fieldset.grade li {
+				float: left;
+				width: 25%;
+				height: 21px;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				background-color: #eee;
+			}
+			fieldset.grade li a	{
+				display: inline;
+				color: #000;
+				padding: 0;
+				height: 100%;
+				text-transform: lowercase;
+				text-decoration: none;
+				font-size: 0.75em;
+			}
+			* html fieldset.grade li a	{
+				/*\*/ height: 1px; /* */
+			}
+			fieldset.grade li a:hover	{
+				background-color: #000000;
+				color: #ffffff;	
+			}
+div.login {
+	float: right;
+	position: relative;
+	border: 0;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0px;
+	text-align: right;
+}
+	div.login p {
+		padding: 0;
+		margin: 0;
+	}
+	div.login a	{
+		display: inline;
+		color: #000;
+		padding: 0px;
+		padding-top: 0px;
+		margin: 0;
+		height: 100%;
+		text-transform: lowercase;
+		text-decoration: none;
+		font-size: 0.75em;
+	}
+	* html div.login a	{
+		/*\*/ height: 1px; /* */
+	}
+	div.login a:hover	{
+		background-color: #000000;
+		color: #ffffff;	
+	}
+p.comment {
+	position: relative;
+	display: block;
+	font-size: 1em;
+}
+p.comment span.miniSmall {
+	margin: 0;
+	padding: 0;
+	float: left;
+	clear: both;
+	font-size: 0.8em;
+}
+#edit {
+	display: block;
+	position: relative;
+	margin: 0.1em;
+}
+	#edit h1 small {
+		display: block;
+		font-size: 0.5em;
+	}
+	#edit img.edit {
+		margin: 0 1em 1em 1em;
+		padding: 0;
+		float: left;
+		width: 100px;
+	}
+	#edit input {
+		margin: 0 1em 1em 1em;
+		clear: both;
+		float: left;
+	}
+	#edit textarea {
+		clear: both;
+		float: left;
+		margin: 0 1em 1em 1em;
+	}
+	#edit hr.clear {
+		clear: both;
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+body div.pageFooter {
+	margin: 0 auto;
+	padding: 0px;
+	padding-top: 5px;
+	width: 800px;
+	height: 50px;
+	border: 1px solid black;
+	border-top: 0;
+	background-color: #fff;
+}
+	body div.pageFooter hr {
+		margin: 0 1em 0 1em;
+		padding: 0 1em 0 1em;
+		border: 0;
+		border-top: 1px solid black;
+	}
+#navigation	{
+	background-color: #eee;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 0;
+	text-align: center;
+}
+	#navigation li	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	#navigation li.listLink	{
+		float: left;
+		width: 10%;
+		height: 21px;
+		background-color: #eee;
+	}
+	#navigation li.listLink a	{
+		display: block;
+		color: #000;
+		padding: 0;
+		height: 100%;
+		text-transform: lowercase;
+		text-decoration: none;
+		font-size: 0.75em;
+	}
+	* html #navigation li.listLink a	{
+		/*\*/ height: 1px; /* */
+	}
+	#navigation li.listLink a:hover	{
+		background-color: #000000;
+		color: #ffffff;
+	}
+div.errorMessage {
+	position: relative;
+	margin: 0 auto;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 1em;
+	background-color: #eee;
+	border: 1px solid #990000;
+	text-align: center;
+	color: black;
+}
+p.query {
+	margin: 1em;
+	padding: 1em;
+	background-color: #ccc;
+	border: 1px dotted black;
+}
+	p span.query {
+		padding: 2em;
+		font-size: small;
+		font-family: "Monaco", "Trebuchet MS", serif;
+	}
+.pageFooter p.small	{
+	float: left;
+	display: block;
+	font-size: 1em;
+	margin: 0;
+	margin-left: 1em;
+}
+fieldset.code {
+	font-size: 0.9em;
+	font-family: "Monaco", "Trebuchet MS", serif;
+	background-color: #CCC;
+}
+fieldset.code legend a, a:hover {
+	text-decoration: none;
+	color: black;
+}
+#reCreateDB {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	width: 40%;
+	text-align: center;
+}
+	#reCreateDB li	{
+		height: 21px;
+		list-style-type: none;
+		margin: 0 2em 1em 2em;
+		padding: 0;
+		background-color: #eee;
+	}
+	#reCreateDB li a	{
+		display: block;
+		color: #000;
+		padding: 0;
+		height: 100%;
+		text-decoration: none;
+		font-size: 1em;
+	}
+	* html #reCreateDB li a	{
+		/*\*/ height: 1px; /* */
+	}
+	#reCreateDB li a:hover	{
+		color: #ffffff;
+		background-color: #000000;
+	}
