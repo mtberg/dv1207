@@ -1,0 +1,70 @@
+/* =====================================================================================
+ *
+ * Style: Stylesheet for HTML5.
+ * 
+ * A small stylesheet. It supports HTML5.
+ *
+ * Author: Mikael roos
+ * 
+ */
+ 
+@import url("nav.css");   		/* definitions to nav-items */
+ 
+
+/* -------------------------------------------------------------------------------------
+ * Various wrappers *may* make the page look stylie and nice.
+ * Review the page page.php for how they are used when constructing the HTML-page.
+ */
+div.wrapper-page {
+	margin: 0 auto;
+	min-width: 600px;
+	max-width: 900px;
+    vertical-align: middle;
+}
+
+div.wrapper-header {
+	display: inline;
+}
+
+div.wrapper-body {
+	border: solid 2px #dddddd;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.wrapper-footer, div.wrapper-debug {
+    vertical-align: middle;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Style the copyright-message, part of footer */
+div.copyright pre { 
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* header styles */
+h1 {
+	margin-top: 50px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Style for links */
+a, a:visited {
+	color: #111111;
+}
+
+a:hover {
+	color: #365B17;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Clearer */
+div.clear {
+	height: 0;
+	clear: both;
+}

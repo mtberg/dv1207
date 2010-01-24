@@ -1,0 +1,111 @@
+/* =====================================================================================
+ *
+ * 
+ * All definitions related to navigation bar, 
+ *
+ *
+ * 
+ */
+ 
+
+/* -------------------------------------------------------------------------------------
+/* Navigation bar for top-menu */
+
+nav.top {
+	clear: both;
+	padding-top: 3px;
+	font: 1em/2 Sans-serif;
+}
+nav.top ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #dddddd;
+}
+nav.top li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+nav.top a {
+	display: block;
+	float: left;
+	padding: 0 12px;
+	text-decoration: none;
+}
+nav.top a:hover,
+nav.top a:focus {
+	background: #cccccc;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Navigation bar for general-links-menu */
+
+nav.general-links ul, nav.general-links ul li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+nav.general-links ul {
+     text-align: center;
+}
+
+nav.general-links ul li {
+     display: inline;
+     margin-right: .25em;
+     font-style: italic;
+     font-size: small;
+}
+
+nav.general-links ul li.last {
+     margin-right: 0;
+}
+
+nav.general-links a {
+	color: #777777;
+}
+
+nav.general-links a:hover,
+nav.general-links a:focus {
+	color: #222222;
+}
+
+
+/* -------------------------------------------------------------------------------------
+/* Navigation bar for validation-tools-menu */
+
+nav.validation-tools ul, nav.validation-tools ul li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+nav.validation-tools ul {
+     text-align: center;
+}
+
+nav.validation-tools ul li {
+     display: inline;
+     margin-right: .25em;
+     font-style: italic;
+     font-size: small;
+}
+
+nav.validation-tools ul li.last {
+     margin-right: 0;
+}
+
+nav.validation-tools a {
+	color: #777777;
+}
+
+nav.validation-tools a:hover,
+nav.validation-tools a:focus {
+	color: #222222;
+}
+
+

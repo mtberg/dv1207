@@ -1,0 +1,68 @@
+1. Greco, Download
+
+Greco is on GitHub.
+
+  http://github.com/mosbth/Greco/
+
+Dowload it and point browser to index.php. That should be enough.
+
+An example of a pure standard installation of greco is available here. Review it before moving
+on.
+
+  http://www.phpersia.org/greco
+
+
+2. Greco, A small template for websites
+
+From time to time I need to quickly create small websites. An example of this is the irc-log that
+was created to ease for students to see what happens in an irc-channel.
+
+  http://tekcp554.tek.bth.se/irc/
+
+The main function of the site is to execute the unix-command "tail -100 irc.log". Still, I need a
+bunch of webpages to make it look nice, stylish and usable.
+
+That's why Greco exists.
+
+
+3. Greco lives?
+
+Greco is used in courses I conduct at Blekinge Institute of Technology, Sweden. It lives as long 
+as its useful. No need for eternal life.
+
+The course-blog is available here (pure swedish, use google translate...).
+
+  http://db-o-webb.blogspot.com/
+
+The course has a irc-channel. I'm in there.
+
+  irc://irc.bsnet.se/#db-o-webb
+
+
+4. Greco, The name
+
+It must have a namn. I already use Persia for a more complete webtemplate so it got to be Greco.
+
+  http://en.wikipedia.org/wiki/Greco-Persian_Wars
+
+Basically because its always a war between Greco and Persia on what funktionality should be in the 
+more complete Persia and the lighter variant of a webtemplate, Greco.
+
+
+5. Greco, The license
+
+Free software. No warranty.
+
+
+6. Greco, The attitude
+
+One must have attitude. Or a philosophy. Perhaps like this?
+
+  http://catb.org/esr/faqs/hacker-howto.html
+
+That works for now.
+
+Enjoy.
+
+ .                        
+..:    &copy; Mikael Roos (mos@bth.se), 2010
