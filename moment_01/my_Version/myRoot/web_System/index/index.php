@@ -29,14 +29,18 @@ switch($page) {
 	case 'home':
 		require_once(TP_PAGESPATH.'app_Home/PHome.php'); 
 		break;
-	
+	case 'irc':
+		require_once(TP_PAGESPATH.'app_IRC_Manager/IRCLogManager.php'); 
+		break;
+	case 'redo':
+		require_once(TP_PAGESPATH.'app_Content_Manager/CElement_Manager.php'); 
+		break;
 	//
 	// default
 	//	Dit du ska komma om du bara anger web addressen.
 	//	www.coolcoreaudio.com
 	default:
-		echo 'default';
-		//require_once(TP_PAGESPATH.'app_home/PIndex.php'); 
+		require_once(TP_PAGESPATH.'app_Home/PHome.php'); 
 		break;
 }
 ?>

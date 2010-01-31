@@ -11,10 +11,9 @@ define('CF_CONFIG', dirname(__FILE__).'/config.php');										// Config filens 
 
 define('TP_SOURCEPATH',		dirname(__FILE__).'/web_System/src/');			// Classes, functions, code
 define('TP_PAGESPATH',		dirname(__FILE__).'/web_System/pages/');		// Pagecontrollers and modules
+define('TP_LOGPATH',		dirname(__FILE__).'/web_System/irc_log/irc_log.txt');	// Filepath to irc log file.
 define('TP_IMAGESPATH',		dirname(__FILE__).'/web_System/images/');		// Images
-define('TP_STYLESHEETS', 	dirname(__FILE__).'/web_System/stylesheet');	// Stylesheets
-
-define('TF_FILEPATH', 	dirname(__FILE__).'/file_System/files');			// Stored files. Uploaded with upload function.
+define('WS_SITELINK',		'http://dv1207mom01.mtberg.se/');				//	Adress till sidan.
 
 ////////////////////////////////////////
 //	Hämta databas filen.

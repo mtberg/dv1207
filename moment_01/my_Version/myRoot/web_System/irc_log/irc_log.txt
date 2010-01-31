@@ -1,0 +1,110 @@
+11:54 <@ake1> Sjoerd: fungerar allt nu?
+11:54 < Sjoerd> tyvÃ¤rr
+11:54 < Sjoerd> allt som fanns finns inte lÃ¤ngre
+11:55 < Sjoerd> inklusief .tcshrc och sÃ¥ vidare
+11:56 <@ake1> servern kan krÃ¥ngla ibland och de jobbar pÃ¥ det, inte mycket mer man kan gÃ¶ra.
+11:57 < Sjoerd> ok, bra att veta
+11:57 < Sjoerd> ingen fara, bara nyfiken hur (o)vanligt det Ã¤r
+11:57 < Sjoerd> eller om man kan hitta information om det
+11:58 < Sjoerd> utan det hÃ¤r Ã¤r jag ganska imponerad med hur allt funkar
+11:59 <@ake1> sjÃ¤lv fÃ¶redrar jag att anvÃ¤nda min egen server sÃ¥ jag vet inte riktigt hur stabil eller instabil skolans miljÃ¶ Ã¤r.
+12:04 < Sharpless> jag anvÃ¤nder bara skolans server fÃ¶r redovisningen
+12:04 < Sharpless> kÃ¤nns sÃ¤krast sÃ¥
+12:09 < Sjoerd> jag ska sig hur pÃ¥litlig den Ã¤r, en alternativ finns
+12:21 -!- Anitha [~chatzilla@79.138.72.232] has joined #db-o-webb
+12:25 -!- Edvin [~chatzilla@h-45-207.A163.priv.bahnhof.se] has quit [Quit: ChatZilla 0.9.86 [Firefox 3.5.7/20091221164558]]
+13:40 -!- Anitha [~chatzilla@79.138.72.232] has quit [Quit: ChatZilla 0.9.86 [Firefox 3.5.7/20091221164558]]
+14:37 <@mos> sitter hÃ¤r och grejar...
+14:38 <@mos> Sjoerd: Har du "rÃ¤tt" rÃ¤ttigheter pÃ¥ filerna? (chmod, ls -l)
+16:22 -!- mtBerg [~mtBerg@nl-157-134.nl.bth.se] has quit [Quit: Degen walks around mountains]
+16:49 < Sjoerd> mos: Jag har lekt met dem men ja, jag tror ja har de rÃ¤tt
+16:50 < Sjoerd> NÃ¤r jag logga in med Putty Ã¤r det firsta: Filen eller katalogen finns inte.cshrc
+16:51 < Sjoerd> Mitt namn framfÃ¶r 'seekers:~> ' Ã¤r ocksÃ¥ fÃ¶rsvunnen
+16:53 < Sjoerd> TyvÃ¤rr finns det ingen historia, fÃ¶r mig alla fall
+16:53 < Sjoerd> Men jag kan lova det att det inte var rm -a
+16:55 < Sjoerd> lol@sjÃ¤lv om dumma fel pÃ¥ svenska :-p
+17:04 <@mos> ajdÃ¥
+17:04 <@mos> villket konto-id har du
+17:07 -!- MeccaGod [~majs@81-234-116-241-o279.telia.com] has joined #db-o-webb
+17:11 < Sjoerd> du menar som: sjho10 ?
+17:12 < Sjoerd> Jag fÃ¶rmoda att det har nÃ¥gonting att gÃ¶ra med konstigheterna i morse
+17:13 < Sjoerd> Se 'Problem med jEdit' i forum
+17:20 <@mos> snygg bild :) http://www.student.bth.se/~sjho10/
+17:22 <@mos> du saknar nÃ¥gra av startup-filerna. Enklast Ã¤r nog att be it-helpdesk Ã¥terstÃ¤lla dem.
+17:23 <@mos> om du vill kan du kopiera mina
+17:24 <@mos> ~mos/.login, ~mos/.cshrc, ~mos/.tcshrc
+17:25 <@ake1> behÃ¶ver vÃ¤l inte tvÃ¥ shell-rc-filer? =)
+17:25 <@mos> osÃ¤ker pÃ¥ om det Ã¤r nÃ¥gon mer...
+17:26 < Sjoerd> det fanns en katalog mail och nÃ¥gon annan
+17:26 < Sjoerd> ska kopiera dem nu
+17:26 <@mos> ne, behÃ¶ver inte tvÃ¥ rc-filer. bara den som Ã¤r rÃ¤tt..
+17:26 <@mos> resten av katalogerna kan du skippa.
+17:26 < Sjoerd> ok
+17:27 < Sjoerd> dÃ¥ finns bara orsaken kvar
+17:27 <@ake1> tcsh Ã¤r default.
+17:27 <@mos> min .tcshrc lÃ¤ser in .cshrc
+17:27 <@mos> som sen lÃ¤ser in den globala
+17:27 <@ake1> k.
+17:27 <@ake1> lÃ¥ter dumt.
+17:27 <@mos> mm
+17:28 <@mos> sjoerd: orsak kanske var nÃ¥t med rm so du sa? spela roll, Ã¥terstÃ¤ll och sen tillbaka pÃ¥ banan.
+17:28 < Sjoerd> absolut
+17:29 <@ake1> rm -rf /
+17:29 <@ake1> skojigt.
+17:30  * mos smiles
+17:30 <@mos> inte roligt nÃ¤r man gÃ¶r det sjÃ¤lv som root. men Ã¥ andra sidan sÃ¥ gÃ¶r man sÃ¤llan om det.
+17:31 <@mos> bra exempel pÃ¥ "learning-by-doing"
+17:37 -!- Figge [~Star_figg@c-2e03e253.329-1-64736c10.cust.bredbandsbolaget.se] has joined #db-o-webb
+17:46 -!- viklund [~chatzilla@c83-252-186-108.bredband.comhem.se] has joined #db-o-webb
+17:49 < viklund> Tjo! Det stod pÃ¥ kmom 01 (dv1106) att man gÃ¤rna fick anvÃ¤nda paketen "WAMP/LAMP/MAMP", och jag undrar bara - fÃ¶r sÃ¤kerhets skull - om XAMPP Ã¤r tillÃ¥tet ocksÃ¥(?)
+17:50 < Sharpless> viklund: grundlÃ¤ggande Ã¤r att sÃ¥ lÃ¤nge det funkar Ã¤r det ok
+17:50 < wasa> sÃ¥lÃ¤nge du kan konfigurera och fixa sÃ¥ kan du kÃ¶ra med vad du vill..
+17:51 < viklund> Okej, funkar gÃ¶r det ;) Har kÃ¶rt det i nÃ¥gra Ã¥r sÃ¥ jag Ã¤r vÃ¤lbekant med det.
+17:51 < Sharpless> mos bryr sig inte om vad du kÃ¶r, sÃ¥ lÃ¤nge du klarar att utfÃ¶ra kursmomenten
+17:52 < viklund> Yeah, okej. Ville som sagt kolla fÃ¶r sÃ¤kerhets skull.
+18:05 -!- viklund [~chatzilla@c83-252-186-108.bredband.comhem.se] has quit [Read error: Connection timed out]
+18:06 -!- viklund [~chatzilla@c83-252-186-108.bredband.comhem.se] has joined #db-o-webb
+18:24 -!- viklund [~chatzilla@c83-252-186-108.bredband.comhem.se] has quit [Read error: Connection timed out]
+18:33 -!- Anitha [~chatzilla@79.138.72.232] has joined #db-o-webb
+19:10 -!- Anitha [~chatzilla@79.138.72.232] has quit [Quit: ChatZilla 0.9.86 [Firefox 3.5.7/20091221164558]]
+19:20 -!- MeccaGod [~majs@81-234-116-241-o279.telia.com] has quit []
+19:39 -!- Szandor [~chatzilla@194.47.121.177] has joined #db-o-webb
+20:17 -!- Sjoerd [~Sjoerd@c83-253-253-34.bredband.comhem.se] has left #db-o-webb []
+20:28 -!- Henrik [~chatzilla@c83-252-173-212.bredband.comhem.se] has joined #db-o-webb
+20:36 -!- yvoma [~chatzilla@217-210-0-190-no149.tbcn.telia.com] has joined #db-o-webb
+20:38 -!- yvoma [~chatzilla@217-210-0-190-no149.tbcn.telia.com] has quit [Client Quit]
+20:38 -!- Robban [~chatzilla@81-233-230-116-no38.tbcn.telia.com] has joined #db-o-webb
+20:39 -!- yvoma [~chatzilla@217-210-0-190-no149.tbcn.telia.com] has joined #db-o-webb
+20:39 -!- yvoma [~chatzilla@217-210-0-190-no149.tbcn.telia.com] has quit [Client Quit]
+20:44 -!- Henrik [~chatzilla@c83-252-173-212.bredband.comhem.se] has quit [Read error: Connection timed out]
+20:45 -!- Henrik [~chatzilla@c83-252-173-212.bredband.comhem.se] has joined #db-o-webb
+--- Log closed Tue Jan 19 20:51:57 2010
+--- Log opened Tue Jan 19 20:52:00 2010
+20:52 -!- mos [~mos@tekcp554.tek.bth.se] has joined #db-o-webb
+20:52 -!- Irssi: #db-o-webb: Total of 11 nicks [1 ops, 0 halfops, 0 voices, 10 normal]
+20:52 -!- mode/#db-o-webb [+o mos] by chan
+20:52 -!- Henrik [~chatzilla@c83-252-173-212.bredband.comhem.se] has quit [Remote host closed the connection]
+20:52 -!- Irssi: Join to #db-o-webb was synced in 31 secs
+21:26 < Figge> Verkar var problem med servern: ssh.student.bth.se, seg som frusen sirap!
+22:07 < Figge> Servern Ã¤r ombootad nu men nÃ¥gon mÃ¥ste mounta diskarna fÃ¶r hemkatalogerna.
+22:12 < Sharpless> Ã¤sch, vilka krav du har... ;) fÃ¥r du vÃ¤l fixa sjÃ¤lv
+22:53 < Figge> next time..
+--- Day changed Wed Jan 20 2010
+00:55 -!- Star_figge [~Star_figg@c-2e03e253.329-1-64736c10.cust.bredbandsbolaget.se] has joined #db-o-webb
+00:56 -!- Figge [~Star_figg@c-2e03e253.329-1-64736c10.cust.bredbandsbolaget.se] has quit [Ping timeout: 245 seconds]
+01:00 -!- MeccaGod [~majs@81-234-116-241-o279.telia.com] has quit []
+01:45 <@ake1> fixa sjÃ¤lv Ã¤r bra ledord :)
+01:48 -!- Star_figge [~Star_figg@c-2e03e253.329-1-64736c10.cust.bredbandsbolaget.se] has quit [Ping timeout: 245 seconds]
+02:01 -!- Szandor [~chatzilla@194.47.121.177] has quit [Quit: ChatZilla 0.9.86 [Firefox 3.5.7/20100106054534]]
+05:21 -!- wasa [~landie@c83-254-208-86.bredband.comhem.se] has quit [Ping timeout: 245 seconds]
+05:23 -!- wasa [~landie@c83-254-208-86.bredband.comhem.se] has joined #db-o-webb
+05:39 -!- wasa [~landie@c83-254-208-86.bredband.comhem.se] has quit [Ping timeout: 245 seconds]
+05:42 -!- wasa [~landie@c83-254-208-86.bredband.comhem.se] has joined #db-o-webb
+08:48 <@mos> hojta till om ssh.student.bth.se, krÃ¥nglar. sÃ¥ jag vet.
+08:49 <@mos> XAMPP lÃ¥ter sÃ¤kert trevligt.
+09:37 -!- MeccaGod [~majs@81-234-116-241-o279.telia.com] has joined #db-o-webb
+10:07 <@mos> sharpless: fixade till kmom02 SQL i dbwebb. jag hade ju fel rader i mina tabeller.
+10:08 <@mos> lade till stycke om INNER och OUTER JOIN
+10:08 < Sharpless> mos: ok, hoppas jag inte behÃ¶ver gÃ¶ra om momentet bara ;) men ska lÃ¤sa genom vad du skrivit
+10:09 <@mos> ne, inget extra att redovisa
+13:50  * mos sitter pÃ¥ kurs och lÃ¤r mig Adobe Connect :)

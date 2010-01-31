@@ -1,0 +1,86 @@
+body {
+	background-color: #999999;
+}
+
+body div.wBanner {
+	background: #5A6666;
+	border: 1px solid #4F4F4F;
+}
+
+body div.wHead {
+}
+	body div.wHead nav.menu a {
+		color: #CFCFCF;
+		text-decoration: none;
+	}
+	body div.wHead nav.menu a:hover, nav.menu a:focus {
+		color: #9DB3B3;
+	}
+
+body div.lineSeparator {
+	border: none;
+	border-left: 1px solid #1a1713;
+}
+body div.wBody {
+	background: #5A6666;
+	border: 1px solid #4F4F4F;
+}
+	body div.wBody header {
+		background: #665E5A;
+		border: 1px solid #2F4F4F;
+	}
+		body div.wBody code {
+			color: #CFCFCF;
+			font-size: 1.1em;
+		}
+	body div.wBody h1 {
+		color: #B3A19D;
+	}
+	body div.wBody h2 {
+		color: #B3A19D;
+	}
+	body div.wBody p {
+		color: #CFCFCF;
+	}
+		body div.wBody p a {
+			color: #CFCFCF;
+			text-decoration: none;
+		}
+		body div.wBody p a:hover, nav.menu a:focus {
+			color: #9DB3B3;
+		}
+			body div.wBody .cElement p a {
+				color: #9DB3B3;
+				text-decoration: none;
+			}
+			body div.wBody .cElement p a:hover, nav.menu a:focus {
+				color: #A6B39D;
+			}
+
+body div.wSidebar {
+	background: #5A6666;
+	border: 1px solid #4F4F4F;
+}
+	body div.wSidebar .userProfile {
+		background: #665E5A;
+		border: 1px solid #2F4F4F;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-webkit-border-radius-topleft: 5px;
+		-webkit-border-radius-bottomright: 5px;
+	}
+	body div.wSidebar .CELinkList {
+		background: #665E5A;
+		border: 1px solid #2F4F4F;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-webkit-border-radius-topleft: 5px;
+		-webkit-border-radius-bottomright: 5px;
+	}
+	body div.wSidebar .CELinkList ul li a {
+		color: #9DB3B3;
+		text-decoration: none;
+	}
+		body div.wSidebar .CELinkList ul li a:hover, a:focus {
+			color: #A6B39D;
+		}

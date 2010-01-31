@@ -1,0 +1,112 @@
+/*	Denna fil innehåller all formatering för positionering.
+ *	CSS för text och meny är i separata css filer.
+ */
+
+/*
+ *	CSS för positioner av element.
+ */
+
+body {
+	margin: 0px auto;
+	overflow: scroll;
+}
+
+#wrapper {
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 0px;
+	width: 1000px;
+	min-width: 800px;
+}
+body div.wBanner {
+	height: 100px;
+	width: 1000px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	body div.wBanner h1 {
+		margin-left: 20px;
+	}
+
+body div.wHead {
+	margin: 0 auto 5px;
+	padding: 0;
+	width: 1000px;
+	float: left;
+}
+	body div.wHead nav.menu {
+		display: inline;
+		margin: 0px auto;
+	}
+		body div.wHead nav.menu ul {
+			margin: 0 5px 0 auto;
+			padding: 0px;
+			width: 500px;
+		}
+			body div.wHead nav.menu ul li {
+/*				margin: 5px 5px 15px 15px;*/
+			}
+
+body div.wBody {
+	margin: 0px auto;
+	padding: 0px;
+/*	width: 630px; */
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	body div.wBody .cElement {
+		margin: 5px;
+/*		width: 618px; */
+		float: left;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-webkit-border-radius-topleft: 5px;
+		-webkit-border-radius-bottomright: 5px;
+	}
+		body div.wBody header code {
+			display: block;
+			width: 968px;
+			margin: 0 0 30px 20px;
+			padding: 0px;
+		}
+	body div.wBody h1 {
+		display: block;
+		width: 580px;
+		margin: 0 15px;
+		padding: 0px;
+		border: none;
+	}
+	body div.wBody h2 {
+		display: block;
+		width: 580px;
+		margin: 0 15px;
+		padding: 0px;
+		border: none;
+	}
+	body div.wBody p {
+		display: block;
+		width: 580px;
+		margin: 0 0 30px 20px;
+		padding: 0px;
+	}
+
+body div.wSidebar {
+	float: right;
+	width: 301px;
+	height: 500px; /* Temporär tills det finns innehåll */
+	margin: 0px;
+	margin-right: 4px;
+	padding: 0px;
+}
+	body div.wSidebar .userProfile {
+		display: block;
+		margin: 5px;
+	}
+	body div.wSidebar .CELinkList {
+		display: block;
+		margin: 5px;
+	}

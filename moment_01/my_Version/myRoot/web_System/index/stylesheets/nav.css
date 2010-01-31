@@ -1,0 +1,26 @@
+body div.wHead nav.menu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+}
+	body div.wHead nav.menu ul li {
+		background: #5A6666;
+		display: inline;
+		margin-right: 1px;
+		padding-top: 5px;
+		border: 1px solid #4F4F4F;
+		border-top: none;
+	}
+	body div.wHead nav.menu a {
+		width: 100px;
+		display: inline;
+		padding: 0 12px;
+	}
+
+body div.wSidebar ul {
+	list-style: none;
+}
+	body div.wSidebar .CELinkList ul li a {
+		display: inline;
+		padding: 0px;
+	}
