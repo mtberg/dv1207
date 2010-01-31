@@ -21,8 +21,8 @@ require_once(TP_SOURCEPATH.'ConnectDB.php');
 
 ////////////////////////////////////////
 //	Definera anslut värden för databasen.
-define('DB_USER', "mtberg_se");
-define('DB_PASS', "incadbyr0b1nb3rg");
+define('DB_USER', "*");
+define('DB_PASS', "*");
 define('DB_URL', "localhost");
 define('DB_NAME', "mtberg_se");
 
